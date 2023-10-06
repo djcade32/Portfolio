@@ -1,0 +1,87 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;700');
+:root {
+  --font-size-sm: 16px;
+  --font-size-md: 21px;
+  --font-size-lg: 32px;
+
+  --spacing-sm: 25px;
+  --spacing-md: 50px;
+  --spacing-lg: 100px;
+
+  --color-black: #1e1e1e;
+  --color-gray: #232323;
+  --color-lightGray: #5a5a5a;
+
+  --font-family-primary: "Poppins";
+  --font-family-secondary: "Merriweather";
+ 
+}
+
+html,
+body {
+  height: 100%;
+  background-image: url("./assets/hexagon-bg.svg");
+  color: white;
+  font-family: var(--font-family-primary);
+  background-size: cover;
+  background-attachment: fixed;
+  margin: 0;
+  background-color: var(--color-black);
+  scroll-behavior: smooth;
+
+}
+
+p , h1{
+  margin: 0px;
+}
+
+a {
+  color: inherit; 
+  text-decoration: none;
+}
+
+.--section-padding {
+  margin: 0px 100px 0px 100px;
+}
+
+
+@keyframes animate-opacity-fade-out {
+  0% {
+   opacity: 1;
+  }
+  100% {
+   opacity: .5;
+  }
+}
+
+@keyframes animate-opacity-fade-in {
+  0% {
+   opacity: 0;
+  }
+  100% {
+   opacity: .75;
+  }
+}
+
+@keyframes scale-up {
+  0% {
+    -webkit-transform: scale(1);
+            transform: scale(1);
+  }
+  100% {
+    -webkit-transform: scale(1.07);
+            transform: scale(1.07);
+  }
+}
+
+@media screen and (max-width: 1440px) {
+  .--section-padding {
+    margin: 0px 25px 0px 25px; 
+  }
+}
+
+@media screen and (max-width: 580px) {
+  .--section-padding {
+    margin: 0px 5px 0px 5px; 
+  }
+}

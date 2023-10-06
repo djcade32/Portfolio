@@ -1,0 +1,23 @@
+.portfolio__aboutMe {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: var(--spacing-md) 0px;
+    justify-content: space-around;
+    scroll-margin-top: 3rem;
+
+}
+
+.portfolio__aboutMe h1 {
+    font-family: var(--font-family-secondary);
+    font-size: var(--font-size-lg);
+    margin-bottom: var(--spacing-md);
+}
+
+.portfolio__aboutMe p {
+    width: 70%;
+    text-align: center;
+    line-height: 224%;
+    font-size: var(--font-size-sm);
+    letter-spacing: 2px;
+}

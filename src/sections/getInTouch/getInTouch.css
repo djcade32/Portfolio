@@ -1,0 +1,133 @@
+.portfolio__getInTouch {
+    padding: var(--spacing-md) 0px;
+}
+
+.portfolio__getInTouch h1 {
+    font-family: var(--font-family-secondary);
+    font-size: var(--font-size-lg);
+    margin-bottom: var(--spacing-md);
+    text-align: center;
+}
+
+.portfolio__getInTouch_content {
+    display: flex;
+    justify-content: space-around;
+}
+
+.portfolio__getInTouch_content_contactInfo_container {
+    display: flex;
+    flex-direction: column;
+    row-gap: var(--spacing-md);
+}
+
+.portfolio__getInTouch_content_contactInfo_item h1 {
+    font-family: var(--font-family-secondary);
+    font-size: var(--font-size-lg);
+    margin-bottom: 5px;
+    text-align: left;
+}
+
+.portfolio__getInTouch_content_contactInfo_item p {
+    font-family: var(--font-family-primary);
+    font-size: var(--font-size-lg);
+}
+
+
+
+.portfolio__getInTouch_content_contactForm{
+    width: 40%;
+    height: 545px;
+    background-color: var(--color-lightGray);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.portfolio__getInTouch_content_contactForm_content {
+    width: 80%;
+    height: 80%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    row-gap: 15px;
+}
+
+
+.portfolio__getInTouch_content_contactForm input, .portfolio__getInTouch_content_contactForm textarea {
+    width: 100%;
+    font-size: var(--font-size-md);
+    font-family: var(--font-family-primary);
+    color: var(--color-black);
+    padding: 5px 0px 5px 10px;
+}
+
+.portfolio__getInTouch_content_contactForm textarea {
+    resize: none;
+    height: 130px;
+}
+
+.portfolio__getInTouch_content_contactForm_item h1{
+    font-family: var(--font-family-secondary);
+    font-size: var(--font-size-lg);
+    margin-bottom: 5px;
+    text-align: left;
+}
+
+.portfolio__getInTouch_content_contactForm button{
+    font-family: var(--font-family-secondary);
+    font-size: var(--font-size-lg);
+    background-color: white;
+    color: white;
+    text-align: left;
+    background-color: transparent;
+    cursor: pointer;
+    width: fit-content;
+    border: none;
+    font-weight: bold;
+}
+
+.portfolio__getInTouch_content_contactForm button:hover{
+    animation: animate-opacity-fade-out .25s forwards;
+}
+
+@media screen and (max-width: 900px) {
+    .portfolio__getInTouch_content_contactInfo_item h1, .portfolio__getInTouch_content_contactInfo_item p {
+        font-size: var(--font-size-md);
+    }
+
+    .portfolio__getInTouch_content_contactForm h1, .portfolio__getInTouch_content_contactForm button {
+        font-size: var(--font-size-md);
+    }
+
+    .portfolio__getInTouch_content_contactForm_content {
+        row-gap: 0px;
+    }
+}
+
+@media screen and (max-width: 1024px) {
+    .portfolio__getInTouch_content_contactForm {
+        width: 50%;
+    }
+ }
+
+@media screen and (max-width: 768px) {
+    .portfolio__getInTouch_content {
+        flex-direction: column;
+        row-gap: var(--spacing-md);
+    }
+
+    .portfolio__getInTouch_content_contactInfo_container {
+        align-items: center;
+        row-gap: 10px;
+    }
+
+    .portfolio__getInTouch_content_contactForm {
+        align-self: center;
+        width: 80%;
+    }
+
+    .portfolio__getInTouch_content_contactInfo_item h1 {
+        text-align: center;
+    }
+ }

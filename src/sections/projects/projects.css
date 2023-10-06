@@ -1,0 +1,14 @@
+.portfolio__projects {
+    background-color: var(--color-gray);
+    padding: var(--spacing-md) 0px;
+    scroll-margin-top: 3rem;
+}
+
+.portfolio__projects h1 {
+    font-family: var(--font-family-secondary);
+    font-size: var(--font-size-lg);
+}
+
+.carousel_container {
+    z-index: 0;
+}
