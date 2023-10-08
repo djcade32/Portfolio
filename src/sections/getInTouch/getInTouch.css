@@ -79,12 +79,13 @@
     font-size: var(--font-size-lg);
     background-color: white;
     color: white;
-    text-align: left;
     background-color: transparent;
     cursor: pointer;
     width: fit-content;
     border: none;
     font-weight: bold;
+    align-self:baseline;
+    margin-left: 10%
 }
 
 .portfolio__getInTouch_content_contactForm button:hover{
