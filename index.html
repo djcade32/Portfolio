@@ -7,6 +7,12 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Norman Cade</title>
   </head>
+  <script>
+    const isDarkMode = window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches;
+    let link = document.getElementById("favIcon");
+    link.href = isDarkMode ? "/logo-white.png" : "/logo-black.png"
+  
+  </script>
   <body>
     <form name="contact" netlify netlify-honeypot="bot-field" hidden>
       <input type="text"  name="name">
