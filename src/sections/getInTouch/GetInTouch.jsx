@@ -18,8 +18,13 @@ const GetInTouch = () => {
             <p>normancade@gmail.com</p>
           </div>
         </div>
-        <form className="portfolio__getInTouch_content_contactForm" name="contact" method="post">
-          <input type="hidden" name="contact" value="contact" />
+        <form
+          className="portfolio__getInTouch_content_contactForm"
+          name="contact"
+          method="post"
+          action="#"
+        >
+          <input type="hidden" name="form-name" value="contact" />
           <div className="portfolio__getInTouch_content_contactForm_content">
             <div className="portfolio__getInTouch_content_contactForm_item">
               <h1>Name</h1>
