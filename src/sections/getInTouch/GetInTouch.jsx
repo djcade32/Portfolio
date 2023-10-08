@@ -18,23 +18,24 @@ const GetInTouch = () => {
             <p>normancade@gmail.com</p>
           </div>
         </div>
-        <div className="portfolio__getInTouch_content_contactForm">
+        <form className="portfolio__getInTouch_content_contactForm" name="contact" method="POST">
+          <input type="hidden" name="contact" value="contact" />
           <div className="portfolio__getInTouch_content_contactForm_content">
             <div className="portfolio__getInTouch_content_contactForm_item">
               <h1>Name</h1>
-              <input type="text" />
+              <input name="name" type="text" required />
             </div>
             <div className="portfolio__getInTouch_content_contactForm_item">
               <h1>Email</h1>
-              <input type="email" />
+              <input name="email" type="email" required />
             </div>
             <div className="portfolio__getInTouch_content_contactForm_item">
               <h1>Message</h1>
-              <textarea />
+              <textarea name="message" required />
             </div>
             <button type="submit">Send</button>
           </div>
-        </div>
+        </form>
       </div>
     </div>
   );
