@@ -5,6 +5,7 @@ import inspr_app_img from "../assets/inspr_app_img.png";
 import melofi_img from "../assets/melofi_img.png";
 import bank_img from "../assets/bank_img.png";
 import gericht_restaurant_img from "../assets/gericht_restaurant_img.png";
+import hhh_img from "../assets/hhh_img.png";
 
 const IMG_POSITION = {
   center: "center",
@@ -25,12 +26,12 @@ export const data = [
     website: "https://melofi.app/",
   },
   {
-    img: inspr_app_img,
-    name: "Inspr App",
+    img: hhh_img,
+    name: "Health Hustle Happiness",
     description:
-      "A quote-saving app designed to help you capture and revisit the quotes that inspire and motivate you most.",
-    tools: ["React Native", "Javascript"],
-    website: "https://apps.apple.com/us/app/inspr-the-app-of-quotes/id6448565489",
+      "Uniting personal finance, mental health, and fitness articles for a well-rounded lifestyle and empowering your journey to balanced well-being",
+    tools: ["NextJs", "Javascript", "Tailwind"],
+    website: "https://healthhustlehappiness.com/",
     imgPosition: IMG_POSITION.center,
   },
   {
@@ -40,6 +41,15 @@ export const data = [
       "INAM Technology is a customer centric IT Consulting Company that helps provide affordable but efficient services to help agencies enhance their businesses and deploy mission critical projects.",
     tools: ["React", "Javascript", "CSS"],
     website: "https://www.inamtechnology.com/",
+    imgPosition: IMG_POSITION.center,
+  },
+  {
+    img: inspr_app_img,
+    name: "Inspr App",
+    description:
+      "A quote-saving app designed to help you capture and revisit the quotes that inspire and motivate you most.",
+    tools: ["React Native", "Javascript"],
+    website: "https://apps.apple.com/us/app/inspr-the-app-of-quotes/id6448565489",
     imgPosition: IMG_POSITION.center,
   },
   {
